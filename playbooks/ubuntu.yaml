@@ -1,0 +1,6 @@
+- name: Setup Ubuntu from scratch
+  hosts: all
+
+  tasks:
+  - debug:
+      var: ansible_facts["cmdline"]
