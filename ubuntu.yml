@@ -65,7 +65,7 @@
           - exa
           - neofetch
           - peco
-          - gcc
+          - clang
         update_cache: yes
         state: present
 
